@@ -1,0 +1,39 @@
+{
+	"manifest_version": 3,
+	"name": "Gather Town: Emote Wheel",
+	"version": "0.20250328.1",
+	"description": "Adds an emote wheel to Gather Town",
+	"icons": {
+		"128": "images/icon128.png",
+		"48": "images/icon48.png"
+	},
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"https://app.gather.town/*"
+			],
+			"js": [
+				"inject.js"
+			]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"js/main.js"
+			],
+			"matches": [
+				"https://app.gather.town/*"
+			]
+		}
+	],
+	"action": {
+		"default_icon": "images/icon128.png",
+		"default_popup": "popup.html",
+		"default_title": "Gather Town Emote Settings"
+	}
+}
