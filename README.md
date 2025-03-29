@@ -19,14 +19,16 @@ Tested with:
 - Google Chrome 134.
 - Gather Town on 2025-03-28 (version unknown, HTTP/WS API V2?)
 
+
 ### Emote wheel
 
-> <video src="./screenshots/emote-demo--2025-03-28.webm" controls></video>  
-> Notice that at the end of the video, the emote "Omega" is cleared after about 3 seconds, mimicking Gather's default behavior.
+Notice that at the end of the video, the emote "Omega" is cleared after about 3 seconds, mimicking Gather's default behavior.
 
-> <img src="./screenshots/emote-welcome--2025-03-28.png" />  
-> Notice that there is no emote wheel here.
-> It only appears if the user is actually in-game, as opposed to the welcome screen, for example.
+[emote-demo--2025-03-28.webm](https://github.com/user-attachments/assets/41a5a803-af14-4f30-8fdd-64e2c4741b99)  
+
+Also, notice that there is no emote wheel here. It only appears if the user is actually in-game, as opposed to the welcome screen, for example.
+
+<img src="./screenshots/emote-welcome--2025-03-28.png" />  
 
 ### Emote editor
 
@@ -39,11 +41,9 @@ Not the best UI/UX, but it's better than nothing.
 - Ω
 - ⬢
 
-Via the extension popup: \
-<img src="./screenshots/emote-editor-popup--2025-03-28.png" />
-
-Result: \
-<img src="./screenshots/emote-editor-result--2025-03-28.png" />
+| Edit via the extension popup                  | Result |
+|-------------------------|------------|
+| <img src="./screenshots/emote-editor-popup--2025-03-28.png" /> |  <img src="./screenshots/emote-editor-result--2025-03-28.png" /> |
 
 
 ## Installation
