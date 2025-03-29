@@ -59,7 +59,7 @@ Not the best UI/UX, but it's better than nothing.
 
 ## Background
 
-The way it works is _not unlike_ Super Scoreboard (https://github.com/djalilhebal/super-scoreboard)--an overlay "superimposed" over another game.
+The way it works is _not unlike_ [Super Scoreboard](https://github.com/djalilhebal/super-scoreboard)--an overlay "superimposed" over another game.
 
 I considered using [`pointer-events: none`](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events) to achieve a similar effect, but `display: none` was enough.
 
